@@ -5,5 +5,5 @@ class Cloporte: public Animal
 {
 public:
     Cloporte();
-    virtual void seDeplacer(void);
+    void seDeplacer(void);
 };

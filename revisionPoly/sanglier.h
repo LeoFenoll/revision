@@ -7,5 +7,5 @@ private:
     int m_longDef;
 public:
     Sanglier();
-    virtual void seDeplacer(void);
+    void seDeplacer(void);
 };
