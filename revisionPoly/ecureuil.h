@@ -1,11 +1,9 @@
-#ifndef ECUREUIL_H
-#define ECUREUIL_H
+#pragma once
+#include "animal.h"
 
-
-class Ecureuil
+class Ecureuil: public Animal
 {
 public:
     Ecureuil();
+    virtual void seDeplacer(void);
 };
-
-#endif // ECUREUIL_H

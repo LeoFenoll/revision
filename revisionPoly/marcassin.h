@@ -1,11 +1,9 @@
-#ifndef MARCASSIN_H
-#define MARCASSIN_H
+#pragma once
+#include "sanglier.h"
 
-
-class Marcassin
+class Marcassin: public Sanglier
 {
 public:
     Marcassin();
+    virtual void seDeplacer(void);
 };
-
-#endif // MARCASSIN_H

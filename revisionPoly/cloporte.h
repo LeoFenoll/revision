@@ -1,11 +1,9 @@
-#ifndef CLOPORTE_H
-#define CLOPORTE_H
+#pragma once
+#include "animal.h"
 
-
-class Cloporte
+class Cloporte: public Animal
 {
 public:
     Cloporte();
+    virtual void seDeplacer(void);
 };
-
-#endif // CLOPORTE_H

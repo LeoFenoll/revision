@@ -7,6 +7,6 @@ int main(int argc, char *argv[])
 {
     BoiteAInsulte insulte;
 
-    insulte("Arnaud");
+    insulte("Léo");
     return 0;
 }
