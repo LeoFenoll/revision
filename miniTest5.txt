@@ -1,0 +1,17 @@
+class CBaguetteMagique 
+{
+    public:
+        void operator() (const string & incantation) const;
+}; //CBaguetteMagique
+
+void CBaguetteMagique::operator()(cont string & incantation) 
+{
+    cout << "Abracadabra" << incantation << endl;
+}
+
+int main(void) 
+{
+    const CBaguetteMagique baguette;
+    baguette("oculus reparo");
+    baguette("recrurite pot en terre");
+}
